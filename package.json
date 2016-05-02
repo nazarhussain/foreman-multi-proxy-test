@@ -1,0 +1,16 @@
+{
+  "name": "foreman-multi-proxy-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/foreman/nf.js start -x 4000,3000 app=2,api=3",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "foreman": "^2.0.0-1"
+  }
+}
